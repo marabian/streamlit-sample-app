@@ -1,0 +1,53 @@
+# ./.streamlit/config.toml
+
+# Configure various settings for Streamlit:
+# https://docs.streamlit.io/develop/api-reference/configuration/config.toml#client
+
+[server]
+# Port to run the server on (default is 8501)
+port = 8501
+# port=80
+# Disable showing the "Run on Save" option
+runOnSave = true
+
+[client]
+# Hide full error details and display them in the console instead
+# showErrorDetails = false
+# Set toolbar mode to 'minimal' to hide deployment options and other developer tools
+# toolbarMode = "minimal"
+
+# Will use this to add the sidebar navigation buttons instead of default
+# https://docs.streamlit.io/develop/api-reference/widgets/st.page_link
+showSidebarNavigation = false
+toolbarMode = "auto"
+
+[logger]
+# Set the logging level
+# level = "info"
+
+[theme]
+# Specify primary colors and background colors
+base = "dark"
+# primaryColor = "#E694FF"
+# backgroundColor = "#1A1A1A"
+# secondaryBackgroundColor = "#262730"
+# textColor = "#FFFFFF"
+
+# Font family for all text in the app, except code blocks. One of "sans serif",
+# "serif", or "monospace".
+# font =    
+
+
+
+[browser]
+# Set the server address to localhost (useful for local development)
+serverAddress = "localhost"
+
+[runner]
+# Disable the magic feature, which automatically displays variables
+# magicEnabled = false
+magicEnabled = true
+
+# Example of how to set a custom Mapbox token for mapping features
+[mapbox]
+token = "your_mapbox_token_here"
