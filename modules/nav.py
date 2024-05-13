@@ -36,7 +36,8 @@ def Navbar():
     # builds the sidebar menu
     with st.sidebar:
         # add app logo
-        add_logo()
+        # add_logo()
+        st.image("logo/golden_hippo_logo_test.png")
 
         # https://docs.streamlit.io/develop/api-reference/widgets/st.page_link
         st.page_link('Hello.py', label='Hello', icon='📄')

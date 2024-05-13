@@ -52,8 +52,10 @@ def main():
         - [Applying custom CSS to button using `stylable_container`](https://discuss.streamlit.io/t/issue-with-coloring-buttons-in-streamlit/56914/6)
         - [How to create dynamic content using `st.empty` placeholders](https://discuss.streamlit.io/t/ugly-screen-shifting-when-rendering-how-to-avoid-this/7790/11)
         - [How to use new CSS `:has` pseudo-class on a simple <span> tag (this is how Stylable Containers works)](https://discuss.streamlit.io/t/applying-custom-css-to-manually-created-containers/33428/7)
+        - [How to create dynamic number of tabs](https://discuss.streamlit.io/t/create-a-variable-number-of-tabs-based-on-dataframe-values/31297/3)
 
         ### Tutorials
+        - [Setting up a multi-page Streamlit app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
         - [Build a custom navigation menu with `st.page_link` (also includes guide on how to display pages to authenticated users only)](https://docs.streamlit.io/develop/tutorials/multipage/st.page_link-nav)
         - [Session State](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state)
         - [Button behavior and examples](https://docs.streamlit.io/develop/concepts/design/buttons)

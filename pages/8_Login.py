@@ -25,13 +25,13 @@ def main():
     # ------------------------------------------------
     passwords_to_hash = ['abc', 'def']
     hashed_passwords = Hasher(passwords_to_hash).generate()
-    print(hashed_passwords)
+    # print(hashed_passwords)
 
     with open('./config.yaml') as f:
         config = yaml.load(f, Loader=SafeLoader)
     # hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
 
-    print(hashed_passwords)
+    # print(hashed_passwords)
 
     authenticator = stauth.Authenticate(
         config['credentials'],
