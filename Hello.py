@@ -65,6 +65,9 @@ def main():
         - [Having some control over hamburger menu on top-right](https://discuss.streamlit.io/t/edit-hamburger-menu/46060)
         - [How to clear Streamlit file uploader widget of cache after uploading files](https://discuss.streamlit.io/t/are-there-any-ways-to-clear-file-uploader-values-without-using-streamlit-form/40903)
         - [How to make plotly charts responsive to layout/screen size](https://discuss.streamlit.io/t/plotly-chart-overlapping-st-columns/30114)
+        - [How to put multiple lines in an error message](https://discuss.streamlit.io/t/writing-text-on-multiple-lines-in-an-error-message/29043)
+        - [How to style a Select Box](https://discuss.streamlit.io/t/how-to-style-a-selectbox/45465/5)
+        - [Flicker after login (no answer/fix yet)](https://discuss.streamlit.io/t/little-flicker-after-login-in-streamlit-authenticator-component/66317)
 
         ### Tutorials
         - [Setting up a multi-page Streamlit app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
