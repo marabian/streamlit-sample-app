@@ -68,6 +68,11 @@ def main():
         - [How to put multiple lines in an error message](https://discuss.streamlit.io/t/writing-text-on-multiple-lines-in-an-error-message/29043)
         - [How to style a Select Box](https://discuss.streamlit.io/t/how-to-style-a-selectbox/45465/5)
         - [Flicker after login (no answer/fix yet)](https://discuss.streamlit.io/t/little-flicker-after-login-in-streamlit-authenticator-component/66317)
+        - [Change choice in st.selectbox by clicking on a button in a side bar](https://discuss.streamlit.io/t/change-choice-in-st-selectbox-by-clicking-on-a-button-in-a-side-bar/41461)
+        - [How to put links in dataframe columns](https://discuss.streamlit.io/t/how-to-display-a-clickable-link-pandas-dataframe/32612/6)
+        - [Also see this for putting a label instead of url in columns in dataframes](https://docs.streamlit.io/develop/api-reference/data/st.column_config/st.column_config.linkcolumn)
+        - [Clear file uploader/any widget on form submit](https://discuss.streamlit.io/t/file-uploader-how-to-clear-the-list-of-uploaded-files/32729)
+        - [Creating a new `text_input` widget every time I click a button](https://discuss.streamlit.io/t/create-a-new-text-input-every-time-i-click-the-button/14124/5)
 
         ### Tutorials
         - [Setting up a multi-page Streamlit app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
@@ -83,6 +88,7 @@ def main():
             * [Streamlit-Authenticator, Part 1](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
             * [Streamlit-Authenticator, Part 2](https://blog.streamlit.io/streamlit-authenticator-part-2-adding-advanced-features-to-your-authentication-component/)
         - [How to configure secrets on Cloud Run](https://cloud.google.com/run/docs/configuring/services/secrets#disallowed_paths_and_limitations)
+        - [Useful Tutorial App](https://st-experimental-fragment.streamlit.app/)
 
         """
     )
