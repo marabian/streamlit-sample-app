@@ -73,6 +73,14 @@ def main():
         - [Also see this for putting a label instead of url in columns in dataframes](https://docs.streamlit.io/develop/api-reference/data/st.column_config/st.column_config.linkcolumn)
         - [Clear file uploader/any widget on form submit](https://discuss.streamlit.io/t/file-uploader-how-to-clear-the-list-of-uploaded-files/32729)
         - [Creating a new `text_input` widget every time I click a button](https://discuss.streamlit.io/t/create-a-new-text-input-every-time-i-click-the-button/14124/5)
+        - [Recent forum post on python logging on working and fix](https://discuss.streamlit.io/t/simple-logging-am-i-missing-something-obvious/67060)
+        - [Guide on GCP Logging](https://cloud.google.com/logging/docs/setup/python)
+        - [Set gatherUsageStats via streamlit run paramter](https://github.com/streamlit/streamlit/issues/1299)
+        - [How to write to a file, using the Python logging module](https://stackoverflow.com/questions/6386698/how-to-write-to-a-file-using-the-logging-python-module)
+        - [Good StackOverflow post on how GCP logger works with the Python logger](https://stackoverflow.com/questions/73687617/send-a-json-payload-with-labels-using-google-cloud-logging-python-library)
+        - [Deleting a value in session state](https://discuss.streamlit.io/t/session-state-del-a-value/14785)
+        - [Simple/effective way of clearing value of `st.text_input` widget](https://github.com/streamlit/streamlit/issues/4195#issuecomment-998909519)
+
 
         ### Tutorials
         - [Setting up a multi-page Streamlit app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
@@ -89,6 +97,14 @@ def main():
             * [Streamlit-Authenticator, Part 2](https://blog.streamlit.io/streamlit-authenticator-part-2-adding-advanced-features-to-your-authentication-component/)
         - [How to configure secrets on Cloud Run](https://cloud.google.com/run/docs/configuring/services/secrets#disallowed_paths_and_limitations)
         - [Useful Tutorial App](https://st-experimental-fragment.streamlit.app/)
+
+
+        ### GCP/Cloud Stuff
+        - [How to delete GCP logs from CLI](https://stackoverflow.com/questions/43969874/how-to-delete-logs-on-google-app-engine)
+
+        ### Random
+        - Use `&nbsp;` to put space in markdown
+
 
         """
     )
