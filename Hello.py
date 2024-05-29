@@ -104,6 +104,7 @@ def main():
 
         ### Random
         - Use `&nbsp;` to put space in markdown
+        - How to generate a secure 32bit token for cookie auth token. `import secrets` then `secure_token = secrets.token_urlsafe(32)`
 
 
         """
