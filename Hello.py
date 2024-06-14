@@ -80,6 +80,7 @@ def main():
         - [Good StackOverflow post on how GCP logger works with the Python logger](https://stackoverflow.com/questions/73687617/send-a-json-payload-with-labels-using-google-cloud-logging-python-library)
         - [Deleting a value in session state](https://discuss.streamlit.io/t/session-state-del-a-value/14785)
         - [Simple/effective way of clearing value of `st.text_input` widget](https://github.com/streamlit/streamlit/issues/4195#issuecomment-998909519)
+        - [Top Navbar](https://github.com/streamlit/streamlit/issues/727)
 
 
         ### Tutorials
