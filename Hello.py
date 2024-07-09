@@ -7,6 +7,7 @@ from streamlit_authenticator.utilities.hasher import Hasher
 
 import streamlit as st
 from modules.nav import Navbar
+
 # from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(
@@ -18,15 +19,14 @@ st.set_page_config(
 # def logo():
 #     add_logo("http://placekitten.com/200/200", height=300)
 
+
 def main():
 
     Navbar()
 
-
     # # Step 1. Import YAML file into script
     # with open('./config.yaml') as f:
     #     config = yaml.load(f, Loader=SafeLoader)
-
 
     # your content
     st.write("# Welcome to the Sample Multi-page Streamlit App 👋")
@@ -81,6 +81,7 @@ def main():
         - [Deleting a value in session state](https://discuss.streamlit.io/t/session-state-del-a-value/14785)
         - [Simple/effective way of clearing value of `st.text_input` widget](https://github.com/streamlit/streamlit/issues/4195#issuecomment-998909519)
         - [Top Navbar](https://github.com/streamlit/streamlit/issues/727)
+        - [How to navigate users to another Streamlit page in text with hyperlink](https://discuss.streamlit.io/t/hyperlink-to-another-streamlit-page-inside-a-text/65463/8)
 
 
         ### Tutorials
@@ -112,6 +113,5 @@ def main():
     )
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

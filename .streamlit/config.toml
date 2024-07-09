@@ -5,7 +5,7 @@
 
 [server]
 # Port to run the server on (default is 8501)
-port = 8501
+port = 8503
 # port=80
 # Disable showing the "Run on Save" option
 runOnSave = true
